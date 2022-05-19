@@ -1,0 +1,79 @@
+@import _Variables.sass
+@import _Modal.sass
+.Fondo
+    height: 100vh
+    width: 100vw
+    overflow: hidden
+    background-image: url('../IMAGES/fondo.jpg')
+    background-size: contain
+    background-position: center
+    background-repeat: no-repeat
+.Titulos
+    text-align: center
+    font-family: $Titulos
+.Maquina-escribir
+    position: relative
+.Maquina-escribir::after
+    content: ""
+    background: #FFF
+    border-left: 1px solid black
+    right: 0
+    height: 116%
+    width: 100%
+    position: absolute
+    animation: escritura 2s infinite backwards steps(10)
+.imgContainer
+    display: flex
+    justify-content: center
+.Contain
+    display: flex
+    width: 100vw
+.img
+    max-width: 30%
+    justify-self: start
+.imgOpenModal
+    animation: Columpio 4s infinite alternate
+.ContainerIdeas
+    display: flex
+    width: 100%
+.Container_img
+    justify-self: center
+    align-self: center
+    position: relative
+.Container_img::after
+    content: "El yo siempre se mantiene en constante crecimeinto ya que mas allá del ego siempre hay nuevas metas"
+    position: relative
+    transform: translateY(-250px)
+    font-size: 2rem
+    color: white
+    -webkit-text-stroke: 1px black
+.Ideas
+    position: relative
+    background-color: blue
+    height: 100%
+    color: white
+    border-radius: 2rem
+    padding: 1rem
+    text-align: center
+    align-self:  center
+    transform: translateX(70px)
+
+@keyframes escritura 
+    form
+        width: 100%
+    to
+        width: 0
+@keyframes Columpio
+    33%
+        transform: rotate(-45deg)
+    66%
+        transform: rotate(0deg)
+    100%
+        transform: rotate(45deg)
+.footer
+    display: flex
+    justify-content: center
+    background-color: red
+    font-size: 2rem
+    position: relative
+    top: 100px    

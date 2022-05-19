@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "normalize.css": "^8.0.1"
+  },
+  "name": "quiensoyyo",
+  "version": "1.0.0",
+  "description": "quien soy yo interactivo",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcpisquiy/QuienSoyYo.git"
+  },
+  "author": "pcpisquiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pcpisquiy/QuienSoyYo/issues"
+  },
+  "homepage": "https://github.com/pcpisquiy/QuienSoyYo#readme"
+}
